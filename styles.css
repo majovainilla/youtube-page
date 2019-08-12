@@ -1,0 +1,33 @@
+
+#top-bar{
+    background-color: blue;
+    height: 100px;
+    width: 100%;
+}
+
+#video-embedded{
+    width: 65%;
+    height: 500px;
+    background-color: pink;
+    display: inline;
+    position: absolute;
+}
+
+#comments {
+    width: 65%;
+    height: 500px;
+    background-color: gray;
+    display: inline;
+    position: absolute;
+    margin-top: 500px;
+}
+
+#sidebar{
+    width: 35%;
+    height: 1000px;
+    background-color: green;
+    display: inline; 
+    position: absolute; 
+    margin-left: 65%;
+}
+
