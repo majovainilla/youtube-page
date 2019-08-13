@@ -42,6 +42,37 @@
     background-color: white;
 }
 
+.add-list{
+    height: 25%;
+    position: absolute;
+    right: 40%;
+    bottom: 0;
+    transform: translateY(-50%);
+}
+
+#share-button{
+    height: 25%;
+    position: absolute;
+    right: 50%;
+    bottom: 0;
+    transform: translateY(-50%);
+}
+
+#dislike-button{
+    height: 25%;
+    position: absolute;
+    right: 60%;
+    bottom: 0;
+    transform: translateY(-50%);
+}
+
+.like-button{
+    height: 25%;
+    position: absolute;
+    right: 70%;
+    bottom: 0;
+    transform: translateY(-50%);
+}
 
 
 #comments {
@@ -168,5 +199,6 @@ h3{
     transform: translateY(-50%);
     border-radius: 60%;
 }
+
 
 
