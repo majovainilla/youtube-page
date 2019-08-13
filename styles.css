@@ -3,7 +3,7 @@
     background-color: white;
     border-bottom-color: lightgrey;
     border-bottom-width: 3px;
-    height: 50px;
+    height: 60px;
     width: 100%;
     position: fixed;
     z-index: 10;
@@ -12,20 +12,25 @@
 
 #video-embedded{
     width: 65%;
-    height: 500px;
+    height: 60%;
     background-color: pink;
     display: inline;
-    margin: auto;                 
+    margin: auto;
+    margin-top: 60px; 
+    margin-left: 40px;                
     position: absolute;
 }
 
 #video-inside{
-    width: 100%;
-    height: inherit;
-    background-color: pink;
+    width: 90%;
+    height: 90%;
+    background-color: red;
     display: inline;
-    margin: auto;                 
+    margin: auto; 
+    right: 5%;                
     position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 #comments {
@@ -44,6 +49,7 @@
     display: inline; 
     position: absolute; 
     margin-left: 65%;
+    margin-top: 60px;
 }
 
 .thumbnail{
@@ -76,7 +82,7 @@ h3{
 #menu-logo{
     height: 35%;
     position: absolute;
-    left: 10px;
+    left: 15px;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -84,7 +90,7 @@ h3{
 #youtube-logo{
     height: 50%; 
     position: absolute;
-    left: 50px;
+    left: 55px;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -108,22 +114,43 @@ h3{
 #camera-logo{
     height: 40%; 
     position: absolute;
-    left: 1050px;
-    top: 15px;
+    right: 25%;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 #menu2-logo{
     height: 40%; 
     position: absolute;
-    left: 1100px;
-    top: 15px;
+    right: 20%;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 #message-logo{
     height: 40%; 
     position: absolute;
-    left: 1150px;
-    top: 15px;
+    right: 15%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#bell-logo{
+    height: 40%; 
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#avatar{
+    height: 40%; 
+    width: 25px;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 60%;
 }
 
 
