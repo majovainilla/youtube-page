@@ -45,17 +45,17 @@
 #sidebar{
     width: 35%;
     height: 1000px;
-    background-color: green;
+    background-color: white;
     display: inline; 
     position: absolute; 
-    margin-left: 65%;
+    right: 0;
     margin-top: 60px;
 }
 
 .thumbnail{
     width: 50%;
     height: auto;
-    background-color: green;
+    background-color: white;
     display: inline; 
     position: relative; 
     margin: 10px;
@@ -68,15 +68,20 @@
 }
 
 h1{
-    display: inline; 
-    position: absolute; 
+    display: inline;
+    position: absolute;
     margin: 10px;
+    font-size: 12pt;
 }
 
 h3{
-    display: inline; 
-    position: absolute; 
+    display: inline;
+    position: absolute;
     margin: 10px;
+    font-size: 10pt;
+    margin-top: 60px;
+    color: grey;
+    font-family: arial;
 }
 
 #menu-logo{
@@ -152,7 +157,6 @@ h3{
     transform: translateY(-50%);
     border-radius: 60%;
 }
-
 
 
 
