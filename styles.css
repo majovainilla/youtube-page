@@ -10,7 +10,6 @@
     top: 0;
 }
 
-
 #video-embedded{
     width: 65%;
     height: 500px;
@@ -75,7 +74,7 @@ h3{
 }
 
 #menu-logo{
-    height: 30%;
+    height: 35%;
     position: absolute;
     left: 10px;
     top: 20px;
@@ -83,16 +82,32 @@ h3{
 
 #youtube-logo{
     height: 50%; 
-    position: relative;
-    left: 100px;
+    position: absolute;
+    left: 50px;
+    top: 15px;
 }
 
 #search-bar{
-    height: 25%; 
-    position: relative;
-    left: 300px;
+    height: 20px; 
+    width: 50%;
+    margin: auto;
+    position: absolute;
+    left: 200px;
+    top: 10px;
+    border-radius: 3%;
+    border: lightgrey 1px solid;
+    background-image: url(img/search.png);
+    background-repeat: no-repeat;
+    background-size: 22px;
+    background-position: right;
 }
 
+#camera-logo{
+    height: 40%; 
+    position: absolute;
+    left: 1050px;
+    top: 15px;
+}
 
 
 
