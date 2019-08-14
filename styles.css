@@ -160,20 +160,22 @@ iframe {
 
 #like-button{
     right: 63%;
+	
 }
 
 #like-button-text{
-    right: 58%;
-	margin-top: 0;
+    right: 59%;
+	margin:0;
 }
 
 #dislike-button{
     right: 50%;
+	
 }
 
 #dislike-button-text{
-    right: 45%;
-    margin-top: 0;
+    right: 46%;
+    margin:0;
 }
 
 #share-button{
@@ -182,7 +184,7 @@ iframe {
 
 #share-button-text{
     right: 28%;
-    margin-top: 0;
+    margin:0;
 }
 
 #add-list{
@@ -191,7 +193,7 @@ iframe {
 
 #addlist-button-text{
     right: 10%;
-    margin-top: 0;
+    margin:0;
 }
 
 #more-button{
@@ -202,7 +204,7 @@ iframe {
 /* COMMENT SECTION */
 
 #avatar2{
-    width: 25px;
+    width: 30px;
     left: -5%;
     top: 0;
     border-radius: 60%;
@@ -212,8 +214,8 @@ iframe {
     position: absolute;
     top: 100%;
     width: 58%;
-    height: 20%;
-    left: 6%;
+    height: 24%;
+    left: 8%;
     border-bottom: lightgrey solid 1px;
 }
 
@@ -223,7 +225,7 @@ iframe {
     height: 20%;
     background-color: white;    
 	left: 5%;
-    top: 121%;
+    top: 125%;
 	text-align:center;
 }
 
