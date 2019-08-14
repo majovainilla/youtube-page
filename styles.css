@@ -120,9 +120,9 @@ table {
     display: inline-block;
     position: absolute;
     top: 72%;
-    width: 90%;
+    width: 58%;
     height: 15%;
-    right: 6%;
+    left: 5%;
     border-bottom: lightgrey solid 1px;
 }
 
@@ -135,28 +135,49 @@ iframe {
     left: 4%; 
 }
 
-.comment-bar-button{
-    height: 25%;
+.comment-bar-items{
+    height: 20%;
     position: absolute;
-    right: 40%;
+    right: 50%;
     bottom: 0;
 }
 
-#add-list{
-    right: 40%;
+#like-button{
+    right: 63%;
 }
 
-#share-button{
-    right: 50%;
+#like-button-text{
+    right: 58%;
 }
 
 #dislike-button{
-    right: 60%;
+    right: 50%;
 }
 
-#like-button{
-    right: 70%;
+#dislike-button-text{
+    right: 45%;
+    margin-top: 0;
 }
+
+#share-button{
+    right: 38%;
+}
+
+#share-button-text{
+    right: 28%;
+    margin-top: 0;
+}
+
+#add-list{
+    right: 20%;
+}
+
+#addlist-button-text{
+    right: 10%;
+    margin-top: 0;
+}
+
+
 
 /* COMMENT SECTION */
 
