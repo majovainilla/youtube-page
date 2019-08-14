@@ -6,40 +6,49 @@
 </head>
 <body>
     <header id = "top-bar">
-        <img id = "youtube-logo" src="img/youtube_logo.png" alt="youtube logo">
-        <img id = "menu-logo" src="img/menu.png" alt="menu logo">
-        <input id = "search-bar" type="text" placeholder="  Search">
-        <img id = "camera-logo"  src="img/camera.png" alt="camera icon">
-        <img id = "menu2-logo" src="img/menu2.png" alt="menu icon">
-        <img id = "message-logo" src="img/message.png" alt="message icon">
-        <img id = "bell-logo" src="img/bell.png" alt="bell icon">
-        <img id = "avatar" src="img/avatar.jpg" alt="avatar icon">
+        <img id = "youtube-logo" class = "center-vertically" src="img/youtube_logo.png" alt="youtube logo">
+        <img id = "menu-logo" class = "center-vertically" src="img/menu.png" alt="menu logo">
+        <input id = "search-bar" class = "center-vertically" type="text" placeholder="  Search">
+        <img id = "camera-logo" class = "top-bar-button center-vertically" src="img/camera.png" alt="camera icon">
+        <img id = "menu2-logo" class = "top-bar-button center-vertically" src="img/menu2.png" alt="menu icon">
+        <img id = "message-logo" class = "top-bar-button center-vertically" src="img/message.png" alt="message icon">
+        <img id = "bell-logo" class = "top-bar-button center-vertically" src="img/bell.png" alt="bell icon">
+        <img id = "avatar" class = "top-bar-button center-vertically" src="img/avatar.jpg" alt="avatar icon">
 
     </header>
 
-    <div id = "video-embedded">
-        <iframe id = "video-inside" 
+    <!–– VIDEO SIDE WITH COMMENTS -->
+
+    <div id = "main-content">
+        <iframe id = "video-inside" class="center-vertically"
         src="https://www.youtube.com/embed/ZnuwB35GYMY" 
         frameborder="0" 
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
         allowfullscreen></iframe>
+
+        <div id = "video-text-bar">
+            <h1 id="title">Video for Image number1...</h1>
+            <h3 id="description">euqueme <br> 1000 views</h3>
+        
+            <img id = "like-button" class = "comment-bar-button center-vertically" src="img/like.png" alt="like icon" title="I like this video">
+            <h3 id= "like-button-text">600</h3>
+    
+            <img id = "dislike-button" class = "comment-bar-button center-vertically" src="img/dislike.png" alt="dislike icon">
+            <h3 id= "dislike-button-text">300</h3>
+
+            <img id = "share-button" class = "comment-bar-button center-vertically" src="img/share.png" alt="share icon">
+            <h3 id= "share-button-text">Share</h3>
+
+            <img id = "add-list" class = "comment-bar-button center-vertically" src="img/add-list.png" alt="add to list icon">
+            <h3 id= "addlist-button-text">Save</h3>
+        </div>
+
+        <div id = "comments">
+
+        </div>
     </div>
 
-    <div id = "video-text-bar">
-        <h1 id="title">Video for Image number1...</h1>
-        <h3 id="description">euqueme <br> 1000 views</h3>
-     
-        <img class="like-button"  src="img/like.png" alt="like icon" title="I like this video">
-        <h3  class="like-button">600</h3>
-   
-        <img id = "dislike-button" src="img/dislike.png" alt="dislike icon">
-        <img id = "share-button" src="img/share.png" alt="share icon">
-        <img class = "add-list" src="img/add-list.png" alt="add to list icon">
-    </div>
-
-    <div id = "comments">
-
-    </div>
+    <!–– SIDEBAR WITH THUMBNAILS -->
 
     <div id = "sidebar">
        <div>  
