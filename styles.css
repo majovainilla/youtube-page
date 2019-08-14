@@ -72,13 +72,21 @@ table {
     width: 50%;
     margin: auto;
     position: absolute;
-    left: 200px;
-    border-radius: 3%;
-    border: lightgrey 1px solid;
+    left: 200px; 
+}
+
+button{
+    margin: auto;
+    position: absolute;
     background-image: url(img/search.png);
     background-repeat: no-repeat;
     background-size: 22px;
     background-position: right;
+    height: 25px;
+    position: absolute;
+    right: 33%;
+    width: 25px;
+    top: 26%;
 }
 
 #camera-logo{
@@ -192,12 +200,20 @@ iframe {
 
 
 /* COMMENT SECTION */
+
+#avatar2{
+    width: 25px;
+    left: -5%;
+    top: 0;
+    border-radius: 60%;
+}
+
 #video-description{
     position: absolute;
     top: 100%;
     width: 58%;
     height: 20%;
-    left: 5%;
+    left: 6%;
     border-bottom: lightgrey solid 1px;
 }
 
