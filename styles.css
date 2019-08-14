@@ -112,30 +112,27 @@ table {
 
 /* BODY */
 
-#main-content {
-    width: 65%;
-    height: auto;
-    padding: 40px;
+.main-content {
+
 }
 
 #video-text-bar{
     display: inline-block;
     position: absolute;
-    top: 65%;
+    top: 72%;
     width: 90%;
     height: 15%;
-    right: 8%;
+    right: 6%;
     border-bottom: lightgrey solid 1px;
 }
 
-#video-inside{
-    width: 70%;
-    height: 70%;
-    background-color: white;
-    margin: 60px, 0, 0, 40px;               
-    position: absolute;
-    bottom: 20%;
-    right: 60px;
+iframe {
+	position: absolute;
+	width: 60vw;
+    height: 33.71vw;
+    background: red;
+    top: 10%;
+    left: 4%; 
 }
 
 .comment-bar-button{
@@ -169,7 +166,7 @@ table {
     background-color: gray;
     display: inline;
     position: absolute;
-    top: 80%;
+    top: 100%;
 }
 
 /* SIDEBAR */
