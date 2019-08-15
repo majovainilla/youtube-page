@@ -17,14 +17,12 @@
         <img id = "avatar" class = "top-bar-button center-vertically" src="img/avatar.jpg" alt="avatar icon">
         
     </header>
-	<content>
-    <! VIDEO SIDE WITH COMMENTS >
-
-        <iframe 
-        src="https://www.youtube.com/embed/ZnuwB35GYMY" 
-        frameborder="0" 
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-        allowfullscreen></iframe>
+	<div id="content">
+    <!-- VIDEO SIDE WITH COMMENTS -->
+		
+		<object id="iframe-replace" type="text/html" data="https://www.youtube.com/embed/ZnuwB35GYMY"  >
+			Error: Embedded data could not be displayed.
+		</object>
 
         <div id = "video-text-bar" class="main-content">
             <h1 id="title" >How To Embed A YouTube Video</h1>
@@ -48,8 +46,9 @@
 		<div id="video-description">
             
             <img id = "avatar2" class = "comment-bar-items" src="img/avatar.jpg" alt="avatar icon of the owner of the video">
-		 	<h1 id="title" >Techoist </h1>
-            <h3 id="description" ><br>How To Embed A YouTube Video <br>
+		 	<button id="subscribe-button" type="submit">SUBSCRIBE 19K</button>
+			<h1 id="title2" >Techoist </h1>
+            <h3 id="description2" ><br>How To Embed A YouTube Video <br>
             
             Embedding a YouTube video is really easy, first just find the video that you'd like to embed.
             Once you've found it, click on Share.
@@ -67,44 +66,35 @@
         </div>
 		
 
-    <! SIDEBAR WITH THUMBNAILS >
+    <!-- SIDEBAR WITH THUMBNAILS -->
 
     <div id = "sidebar">
        <div>  
         <img class="thumbnail" alt="thumbnail1" src="img/img1.webp">
-            <p class="paragraph">
-                <h1>Video for Image number1...</h1>
-                <h3>euqueme <br> 1000 views</h3>
-            </p>
+			<h1>Video for Image number1...</h1>
+            <h3>euqueme <br> 1000 views</h3>
         </div>
         <div>  
             <img class="thumbnail" alt="thumbnail1" src="img/img2.webp">
-                <p class="paragraph">
-                    <h1>Video for Image number 2</h1>
-                    <h3>majovainilla <br> 80.5M views</h3>
-    
-                </p>
+                <h1>Video for Image number 2</h1>
+                <h3>majovainilla <br> 80.5M views</h3>
+
             </div>
             <div>  
                 <img class="thumbnail" alt="thumbnail1" src="img/img3.webp">
-                    <p class="paragraph">
-                        <h1>Video for Image number3...</h1>
-                        <h3>euqueme <br> 2M views</h3>
-        
-                    </p>
+                    <h1>Video for Image number3...</h1>
+                    <h3>euqueme <br> 2M views</h3>
                 </div>
                 <div>  
                     <img class="thumbnail" alt="thumbnail1" src="img/img4.webp">
-                        <p class="paragraph">
-                            <h1>Video for Image number 4</h1>
-                            <h3>majorvainilla <br> 2587 views</h3>
+                        <h1>Video for Image number 4</h1>
+                        <h3>majorvainilla <br> 2587 views</h3>
             
-                        </p>
                     </div>
 
 
     </div>
-    </content>
+    </div>
 	<link rel="stylesheet" href="styles.css">
 </body>
 </html>
