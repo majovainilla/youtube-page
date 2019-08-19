@@ -42,6 +42,8 @@ table {
 	border-spacing: 0;
 }
 
+/*---------END OF RESET----------------------*/
+
 /* HEADER */
 
 #top-bar{
@@ -57,33 +59,26 @@ table {
 
 #menu-logo{
     height: 35%;
-    position: absolute;
     left: 15px;
 }
 
 #youtube-logo{
     height: 50%; 
-    position: absolute;
     left: 55px;
 }
 
 #search-bar{
     height: 20px; 
     width: 50%;
-    margin: auto;
-    position: absolute;
     left: 200px; 
 }
 
 button{
-    margin: auto;
-    position: absolute;
-    background-image: url(img/search.png);
+    background: url(img/search.png);
     background-repeat: no-repeat;
     background-size: 22px;
     background-position: right;
     height: 25px;
-    position: absolute;
     right: 33%;
     width: 25px;
     top: 26%;
@@ -91,7 +86,6 @@ button{
 
 #camera-logo{
     height: 40%; 
-    position: absolute;
     right: 25%;
 }
 
@@ -125,7 +119,6 @@ button{
 }
 
 #iframe-replace {
-	position: absolute;
 	width: 60vw;
     height: 33.71vw;
     background: red;
@@ -134,7 +127,6 @@ button{
 }
 
 #video-text-bar{
-    position: absolute;
     top: 82%;
     width: 58%;
     height: 15%;
@@ -149,33 +141,27 @@ button{
     bottom: 0;
 }
 #title{
-	position: absolute;
 	margin-top:20px;
 }
 
 #description{
-	position: absolute;
 	margin-top:7%;
 }
 
 #like-button{
-    right: 63%;
-	
+    right: 63%;	
 }
 
 #like-button-text{
     right: 59%;
-	margin:0;
 }
 
 #dislike-button{
     right: 50%;
-	
 }
 
 #dislike-button-text{
     right: 46%;
-    margin:0;
 }
 
 #share-button{
@@ -184,7 +170,6 @@ button{
 
 #share-button-text{
     right: 28%;
-    margin:0;
 }
 
 #add-list{
@@ -193,7 +178,6 @@ button{
 
 #addlist-button-text{
     right: 10%;
-    margin:0;
 }
 
 #more-button{
@@ -211,7 +195,6 @@ button{
 }
 
 #video-description{
-    position: absolute;
     top: 100%;
     width: 58%;
     height: 24%;
@@ -233,7 +216,6 @@ button{
 }
 
 #comments {
-    position: absolute;
 	width: 65%;
     height: 20%;
     background-color: white;    
@@ -243,23 +225,14 @@ button{
 }
 
 #loading-area {
-position: absolute;
     width: 100%;
     margin-top: 10%;
 }
 
-#comment-title{
-	left:0;
-}
-
 #load-gif{
 	height:20%;
-	margin: auto;
 }
 
-#load-gif-text{
-	margin:auto;
-}
 /* SIDEBAR */
 
 #sidebar{
@@ -267,7 +240,6 @@ position: absolute;
     height: 1000px;
     background-color: white;
     display: inline; 
-    position: absolute; 
     right: 0;
     margin-top: 60px;
 }
@@ -283,21 +255,22 @@ position: absolute;
 
 /* OTHER ELEMENTS */
 
-h1{
-    display: inline;
-    position: absolute;
-    margin: 10px;
-    font-size: 12pt;
-}
-
+h1,
 h3{
     display: inline;
     position: absolute;
     margin: 10px;
+    font-family: arial;
+}
+
+h1{
+    font-size: 12pt;
+}
+
+h3{
     font-size: 10pt;
     margin-top: 45px;
     color: grey;
-    font-family: arial;
 }
 
 .center-vertically {
@@ -305,6 +278,13 @@ h3{
     transform: translateY(-50%);
 }
 
+.center-horizontally{
+    margin: 0;
+}
+
+.absolute{
+    position: absolute;
+}
 
 
 

@@ -6,11 +6,11 @@
 </head>
 <body>
     <header id = "top-bar">
-        <img id = "youtube-logo" class = "center-vertically" src="img/youtube_logo.png" alt="youtube logo">
-        <img id = "menu-logo" class = "center-vertically" src="img/menu.png" alt="menu logo">
-        <input id = "search-bar" class = "center-vertically" type="text" placeholder="  Search">
-        <button type="submit"></button>
-        <img id = "camera-logo" class = "top-bar-button center-vertically" src="img/camera.png" alt="camera icon">
+        <img id = "youtube-logo" class = "center-vertically absolute" src="img/youtube_logo.png" alt="youtube logo">
+        <img id = "menu-logo" class = "center-vertically absolute" src="img/menu.png" alt="menu logo">
+        <input id = "search-bar" class = "center-vertically absolute center-horizontally" type="text" placeholder="  Search">
+        <button type="submit" class="absolute center-horizontally"></button>
+        <img id = "camera-logo" class = "top-bar-button center-vertically absolute" src="img/camera.png" alt="camera icon">
         <img id = "menu2-logo" class = "top-bar-button center-vertically" src="img/menu2.png" alt="menu icon">
         <img id = "message-logo" class = "top-bar-button center-vertically" src="img/message.png" alt="message icon">
         <img id = "bell-logo" class = "top-bar-button center-vertically" src="img/bell.png" alt="bell icon">
@@ -20,33 +20,33 @@
 	<div id="content">
     <!-- VIDEO SIDE WITH COMMENTS -->
 		
-		<object id="iframe-replace" type="text/html" data="https://www.youtube.com/embed/ZnuwB35GYMY"  >
+		<object id="iframe-replace" type="text/html" class="absolute" data="https://www.youtube.com/embed/ZnuwB35GYMY"  >
 			Error: Embedded data could not be displayed.
 		</object>
 
-        <div id = "video-text-bar" class="main-content">
-            <h1 id="title" >How To Embed A YouTube Video</h1>
-            <h3 id="description" >techoist <br> 1000 views</h3>
+        <div id = "video-text-bar" class="main-content absolute">
+            <h1 id="title" class="absolute" >How To Embed A YouTube Video</h1>
+            <h3 id="description" class="absolute" >techoist <br> 1000 views</h3>
         
             <img id = "like-button" class = "comment-bar-items" src="img/like.png" alt="like icon" title="I like this video">
-            <h3 id= "like-button-text" class = "comment-bar-items">600</h3>
+            <h3 id= "like-button-text" class = "comment-bar-items center-horizontally">600</h3>
     
             <img id = "dislike-button" class = "comment-bar-items" src="img/dislike.png" alt="dislike icon">
-            <h3 id= "dislike-button-text" class = "comment-bar-items">300</h3>
+            <h3 id= "dislike-button-text" class = "comment-bar-items center-horizontally">300</h3>
 
             <img id = "share-button" class = "comment-bar-items" src="img/share.png" alt="share icon">
-            <h3 id= "share-button-text" class = "comment-bar-items">SHARE</h3>
+            <h3 id= "share-button-text" class = "comment-bar-items center-horizontally">SHARE</h3>
 
             <img id = "add-list" class = "comment-bar-items" src="img/add-list.png" alt="add to list icon">
-            <h3 id= "addlist-button-text" class = "comment-bar-items">SAVE</h3>
+            <h3 id= "addlist-button-text" class = "comment-bar-items center-horizontally">SAVE</h3>
         
             <img id = "more-button" class = "comment-bar-items" src="img/more.png" alt="more icon">
         </div>
 		
-		<div id="video-description">
+		<div id="video-description" class="absolute">
             
             <img id = "avatar2" class = "comment-bar-items" src="img/avatar.jpg" alt="avatar icon of the owner of the video">
-		 	<button id="subscribe-button" type="submit">SUBSCRIBE 19K</button>
+		 	<button id="subscribe-button" type="submit" class="absolute center-horizontally">SUBSCRIBE 19K</button>
 			<h1 id="title2" >Techoist </h1>
             <h3 id="description2" ><br>How To Embed A YouTube Video <br>
             
@@ -57,18 +57,18 @@
             You can change the video size to a few different sizes here, you can also make a custom size, but just for this example we're going to go with the standard 560 x 315. </h3>
 		</div>
 		
-        <div id = "comments" >
+        <div id = "comments" class="absolute" >
 			<h1 id="comment-title" >77 Comments</h1>
-			<div id="loading-area"  class = "center-vertically">
-				<img id = "load-gif" class = "center-vertically"  src="img/load.gif" alt="loading gif">
-				<h3 id = "load-gif-text" >Loading...</h3>
+			<div id="loading-area"  class = "center-vertically absolute">
+				<img id = "load-gif" class = "center-vertically center-horizontally"  src="img/load.gif" alt="loading gif">
+				<h3 id = "load-gif-text" class="center-horizontally" >Loading...</h3>
 			</div>
         </div>
 		
 
     <!-- SIDEBAR WITH THUMBNAILS -->
 
-    <div id = "sidebar">
+    <div id = "sidebar" class="absolute">
        <div>  
         <img class="thumbnail" alt="thumbnail1" src="img/img1.webp">
 			<h1>Video for Image number1...</h1>
