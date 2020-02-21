@@ -3,7 +3,7 @@
 > This is a project of a Youtube clone page.
 > We used the original youtube page as a reference omitting some parts and using only HTML and CSS.
 
-[screenshot](img/screenshot.png)
+![screenshot](img/screenshot.png)
 
 More info on this project:
   - It was created to practice API calls.
